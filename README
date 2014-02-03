@@ -1,3 +1,10 @@
+jackoalan/pdcurses
+==================
+
+This fork of PDCurses adds a streamlined CMake-based build system
+for my personal projects. Win32 support is included
+
+
 Welcome to PDCurses!
 ====================
 
