@@ -82,7 +82,7 @@ extern "C"
  *
  */
 
-typedef unsigned char bool;    /* PDCurses Boolean type */
+#include <stdbool.h>
 
 #ifdef CHTYPE_LONG
 # if _LP64

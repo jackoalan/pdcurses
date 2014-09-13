@@ -1,17 +1,221 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    <Filter Include="pdcurses">
+      <UniqueIdentifier>{30b76add-eed3-44de-bcb2-661baa220531}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    <Filter Include="win32">
+      <UniqueIdentifier>{31a2de84-37b2-4d75-ad54-326ac82a428e}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="win32\bccwin32.mak">
+      <Filter>win32</Filter>
+    </None>
+    <None Include="win32\dmcwin32.mak">
+      <Filter>win32</Filter>
+    </None>
+    <None Include="win32\gccwin32.mak">
+      <Filter>win32</Filter>
+    </None>
+    <None Include="win32\lccwin32.mak">
+      <Filter>win32</Filter>
+    </None>
+    <None Include="win32\mingwin32.mak">
+      <Filter>win32</Filter>
+    </None>
+    <None Include="win32\README">
+      <Filter>win32</Filter>
+    </None>
+    <None Include="win32\vcwin32.mak">
+      <Filter>win32</Filter>
+    </None>
+    <None Include="win32\wccwin32.mak">
+      <Filter>win32</Filter>
+    </None>
+    <None Include="pdcurses\README">
+      <Filter>pdcurses</Filter>
+    </None>
+    <None Include="HISTORY" />
+    <None Include="IMPLEMNT" />
+    <None Include="pdcurses-config.cmake.in" />
+    <None Include="README" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="win32\CMakeLists.txt">
+      <Filter>win32</Filter>
+    </Text>
+    <Text Include="pdcurses\CMakeLists.txt">
+      <Filter>pdcurses</Filter>
+    </Text>
+    <Text Include="CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="win32\pdcclip.c">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\pdcdisp.c">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\pdcgetsc.c">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\pdckbd.c">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\pdcscrn.c">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\pdcsetsc.c">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\pdcutil.c">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="pdcurses\addch.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="pdcurses\addchstr.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="pdcurses\addstr.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="pdcurses\attr.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="pdcurses\beep.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="pdcurses\bkgd.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="pdcurses\border.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="pdcurses\clear.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="pdcurses\color.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="pdcurses\debug.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="pdcurses\delch.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="pdcurses\deleteln.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="pdcurses\deprec.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="pdcurses\getch.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="pdcurses\getstr.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="pdcurses\getyx.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="pdcurses\inch.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="pdcurses\inchstr.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="pdcurses\initscr.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="pdcurses\inopts.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="pdcurses\insch.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="pdcurses\insstr.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="pdcurses\instr.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="pdcurses\kernel.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="pdcurses\keyname.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="pdcurses\mouse.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="pdcurses\move.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="pdcurses\outopts.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="pdcurses\overlay.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="pdcurses\pad.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="pdcurses\panel.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="pdcurses\printw.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="pdcurses\refresh.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="pdcurses\scanw.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="pdcurses\scr_dump.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="pdcurses\scroll.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="pdcurses\slk.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="pdcurses\termattr.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="pdcurses\terminfo.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="pdcurses\touch.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="pdcurses\util.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="pdcurses\window.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="win32\pdcurses.ico">
+      <Filter>win32</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="win32\pdcurses.rc">
+      <Filter>win32</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="win32\pdcwin.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="curses.h" />
+    <ClInclude Include="curspriv.h" />
+    <ClInclude Include="panel.h" />
+    <ClInclude Include="term.h" />
   </ItemGroup>
 </Project>
