@@ -1,12 +1,8 @@
-NOT READY YET!!! This is a submodule for another project currently
-in development. I've just planted the seed for something I know I'll
-have to do later. Sorry for the inconvenience 😓
-
 jackoalan/pdcurses
 ==================
 
-This fork of PDCurses adds a streamlined CMake-based build system
-for my personal projects. Win32 support is included
+This fork of PDCurses adds a Visual Studio Express 2013 project
+for my personal projects.
 
 
 Welcome to PDCurses!
